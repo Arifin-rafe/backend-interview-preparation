@@ -31,12 +31,12 @@
 
 // 10. What is the difference between synchronous and asynchronous programming?
 // Synchronous     -----------------------	Asynchronous
-// Executes one task at a time.	        Executes multiple tasks without blocking.
+// Executes one task at a time.	            Executes multiple tasks without blocking.
 // Slower for I/O operations.	            Faster and non-blocking.
 // Example: reading file directly.	        Example: reading file with callback or promise.
 
 // 11. What are events, event emitter, event queue, event loop, and event-driven in Node.js?
-// Term	        Meaning
+// Term	            Meaning
 // Events-	        Actions or signals that trigger functions (like “connection” or “data”).
 // EventEmitter-	Node module that allows creating and handling custom events.
 // Event Queue-	Stores pending callbacks waiting to be executed.
@@ -59,3 +59,10 @@
 // Not ideal for CPU-intensive tasks
 // Callback hell (though improved with promises/async-await)
 // Single-threaded may limit performance for heavy computations
+
+// How node js handle asynchronous programming?
+
+// Node.js handles asynchronous programming by using a non-blocking I/O model.
+// It uses the event loop to manage callbacks, allowing multiple tasks to run 
+// concurrently without blocking the main thread.
+// Node.js handles asynchronous programming using:Non-blocking I/O, Event Loop, Callback functions, Promises, async/await
