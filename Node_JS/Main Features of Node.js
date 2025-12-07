@@ -17,7 +17,8 @@
 
 // 7. What is synchronous programming?
 
-// Synchronous programming executes tasks one after another, blocking the next task until the current one finishes.
+// Synchronous programming executes tasks one after another,
+// blocking the next task until the current one finishes.
 
 // 8. What is multi-threaded programming?
 
